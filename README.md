@@ -94,7 +94,7 @@ IoT - 라즈베리프로젝트
 
 
 ### 📽️ 구현 영상 및 실물 시연
-#### 🎬 1. UI 및 기능 흐름 시연 영상 보기()
+#### 🎬 1. [UI 및 기능 흐름 시연 영상 보기](https://github.com/user-attachments/assets/7a5a5ced-1eb1-4e57-b122-5c0a6f3f2118)
 - 로그인 → 대시보드 진입 → LED 수동 제어 / 자동 감지 / 센서 갱신 등 전체 기능 흐름 시연
 - 로그인 인증이 되지 않은 상태에서 /dashboard로 접근 시 차단되는 보안 처리 로직도 확인 가능
     - session['logged_in'] 여부에 따라 JavaScript 알림 + 로그인 페이지로 강제 리디렉션
@@ -111,7 +111,8 @@ def dashboard():
             </script>
         '''
 ```
-#### 🎬 2. 센서 반응 실물 영상 보기()
+#### 🎬 2. [센서 반응 실물 영상 보기](https://github.com/user-attachments/assets/29e1834b-f2d7-4e5e-b7a5-bedb1af4ca59)
+
 - LED ON/OFF 버튼 클릭 시, 실제 GPIO 핀을 통해 LED가 점등/소등되는 장면 확인 가능
 - 온·습도 센서 모듈이 정상 작동하며, 측정값이 대시보드에 2초 간격으로 실시간 갱신됨
 
