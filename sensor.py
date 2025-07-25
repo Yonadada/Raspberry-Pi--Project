@@ -51,6 +51,6 @@ def blink_led():
     GPIO.output(LED_PINS["blue"], GPIO.HIGH)
     GPIO.output(LED_PINS["green"], GPIO.HIGH)
     time.sleep(1)
-  
+
 # 부저 울림 함수
 # def buzzer()

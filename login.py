@@ -25,7 +25,7 @@ def login():
             return redirect(url_for('dashboard'))
         else: 
             return "<script>alert('로그인 실패!'); location.href='/login';</script>"
-       
+
     # 로그인 화면(get)
     else:
         return render_template('login.html')
